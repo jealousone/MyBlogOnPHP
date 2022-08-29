@@ -1,0 +1,35 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 170px;
+}
+
+.footer {
+    background-color: #464646;
+    color: #e6e6e6;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__upper {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.footer__upper-item {
+    margin: 0 16px;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin: 16px;
+}

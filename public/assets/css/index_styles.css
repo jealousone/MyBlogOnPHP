@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.post-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.post-card {
+    width: 30%;
+    border: 1px solid #464646;
+    margin: 15px 0;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: all 200ms;
+}
+
+.post-card:hover {
+    box-shadow: 0 0 50px #46464625;
+    color: black;
+}
+
+.post-card__image {
+    width: 100%;
+}
+
+.post-card__tag {
+    margin: 5px 10px 5px 0;
+    padding: 8px;
+    background-color: rgba(211, 211, 211, 0.3);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.post-card__item {
+    margin: 10px 0;
+}
+
+.post-cards-label {
+    margin: 30px 0 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+.header__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: no-repeat url('https://images.hdqwalls.com/wallpapers/wheat.jpg');
+    background-size: cover;
+    box-shadow: 0px 20px 20px -20px black;
+}
+
+.main__welcome-message {
+    color: #fff;
+    font-size: 75px;
+}
+
+.main__blog-name {
+    color: beige;
+}
+
+.noPostsMsg {
+    font-size: 25px;
+    color: #46464675;
+}
